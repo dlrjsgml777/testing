@@ -1,0 +1,17 @@
+#Bomb {
+  animation: 1s ease-in infinite slidein;
+}
+
+button:active  {
+  background-color: red !important;
+}
+
+@keyframes slidein {
+  from {
+   scale: 1;
+  }
+
+  to {
+    scale: 1.3;
+  }
+}
